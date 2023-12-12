@@ -20,8 +20,11 @@ function App() {
           marginBottom: "20px",
           padding: "10px",
           display: "grid",
-          gridTemplateColumns: "1fr 1fr",
+          gridTemplateColumns: "1fr",
           gap: "10px",
+          "@media (min-width: 600px)": {
+            gridTemplateColumns: "1fr 1fr",
+          },
         }}
       >
         <WeaponList />
@@ -33,8 +36,11 @@ function App() {
           marginBottom: "20px",
           padding: "10px",
           display: "grid",
-          gridTemplateColumns: "1fr 1fr",
+          gridTemplateColumns: "1fr",
           gap: "10px",
+          "@media (min-width: 600px)": {
+            gridTemplateColumns: "1fr 1fr",
+          },
         }}
       >
         <TechnicalEquipments />
@@ -46,8 +52,11 @@ function App() {
           marginBottom: "20px",
           padding: "10px",
           display: "grid",
-          gridTemplateColumns: "1fr 1fr",
+          gridTemplateColumns: "1fr",
           gap: "10px",
+          "@media (min-width: 600px)": {
+            gridTemplateColumns: "1fr 1fr",
+          },
         }}
       >
         <Vehicle />
@@ -59,8 +68,11 @@ function App() {
           marginBottom: "20px",
           padding: "10px",
           display: "grid",
-          gridTemplateColumns: "1fr 1fr",
+          gridTemplateColumns: "1fr",
           gap: "10px",
+          "@media (min-width: 600px)": {
+            gridTemplateColumns: "1fr 1fr",
+          },
         }}
       >
         <UAV />
